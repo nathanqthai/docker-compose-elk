@@ -1,2 +1,2 @@
-# docker-compose-elk
-Easy ELK stack using docker-compose.
+# Easy ELK using `docker-compose`
+What the title says.
