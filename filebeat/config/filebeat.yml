@@ -1,0 +1,9 @@
+filebeat.prospectors:
+- paths:
+      - /mnt/data/*
+  exclude_lines: ['{\"ind']
+
+
+
+output.logstash:
+   hosts: ['logstash:5044']
